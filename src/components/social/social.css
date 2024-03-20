@@ -1,0 +1,29 @@
+.social{
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 1px;
+  height: 300px;
+  background: linear-gradient(
+    180deg,
+    #08b6f9, 0%,
+    #6c56ef 33.57%,
+    #1306dd 65.86%,
+    #aa0eb2 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.social div { 
+  position: absolute;
+  top: 105%;
+  /* top: 20%; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}

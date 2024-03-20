@@ -1,6 +1,8 @@
+import './social.css'
+
 function Social({children}) {
   return(
-    <div>
+    <div className='social'>
       {children}
     </div>
   )

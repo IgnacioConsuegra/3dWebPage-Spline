@@ -3,6 +3,7 @@ import './App.css';
 import Spline from '@splinetool/react-spline';
 import Wrapper from './components/wrapper/Wrapper';
 import Content from './components/content/Content';
+import Social from './components/social/Social';
 import Menu from './components/menu/Menu';
 import Logo from '../public/images/logo.svg';
 import IconTwitter from '../public/images/icon-twitter.svg';
@@ -29,6 +30,12 @@ function App() {
             <img src={IconLaptop} alt="Download" />
           </button>
         </Content>
+        <Social>
+          <div>
+            <img src={IconTwitter} alt="Twitter" />
+            <img src={IconYoutube} alt="Youtube"/>
+          </div>
+        </Social>
       </Wrapper>
     </main>
   )
