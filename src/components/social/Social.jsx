@@ -1,8 +1,8 @@
 import './social.css'
 
-function Social({children}) {
+function Social({children, mustShow}) {
   return(
-    <div className='social'>
+    <div className={`social ${mustShow ? "showComponent" : "hideComponent"}`}>
       {children}
     </div>
   )

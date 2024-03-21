@@ -1,8 +1,8 @@
 import './content.css'
 
-function Content({children}){
+function Content({children, mustShow}){
   return(
-    <div className='content'>
+    <div className={`content ${mustShow ? "showComponent" : "hideComponent"}`}>
       {children}
     </div>
   )
